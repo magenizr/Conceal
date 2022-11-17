@@ -1,0 +1,22 @@
+{
+    "name": "magenizr/magento2-conceal",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "OSL-3.0",
+    "description": "Disable all customer export functions and mask personal information such as email, phone number.",
+    "keywords": [
+        "Magento 2",
+        "Conceal",
+        "Customer Data",
+        "Export",
+        "Disable"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magenizr\\Conceal\\": ""
+        }
+    }
+}

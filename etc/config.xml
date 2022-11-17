@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magenizr Conceal
+ * @copyright   Copyright (c) 2018 - 2022 Magenizr (https://www.magenizr.com)
+ * @license     https://www.magenizr.com/license Magenizr EULA
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <admin>
+            <magenizr_conceal>
+                <enabled>1</enabled>
+            </magenizr_conceal>
+        </admin>
+    </default>
+</config>
