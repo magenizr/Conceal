@@ -1,3 +1,6 @@
+[![Magenizr Plus](https://images2.imgbox.com/11/6b/yVOOloaA_o.gif)](https://account.magenizr.com)
+---
+
 # Conceal
 
 Disable all customer export functions and mask personal information such as email and phone number.
@@ -12,21 +15,6 @@ A paid version with further security enhancements will be available early Decemb
 
 - Magento 2.3.x, 2.4.x
 - PHP 5.6.x, 7.x
-
-## Installation (Composer)
-
-1. Update your composer.json `composer require "magenizr/magento2-conceal":"1.0.0" --no-update`
-2. Install dependencies and update your composer.lock `composer update --lock`
-
-```
-./composer.json has been updated
-Loading composer repositories with package information
-Updating dependencies (including require-dev)              
-Package operations: 1 install, 0 updates, 0 removals
-  - Installing magenizr/magento2-conceal (1.0.0): Downloading (100%)         
-Writing lock file
-Generating autoload files
-```
 
 ## Installation (Composer 2)
 
@@ -64,7 +52,6 @@ php bin/magento setup:upgrade
 
 ```
 php bin/magento module:enable Magenizr_Conceal --clear-static-content
-php bin/magento setup:upgrade
 ```
 
 ## Features
@@ -83,9 +70,7 @@ php bin/magento magenizr:conceal:config --status disable
 ```
 
 ## Support
-
-If you experience any issues, don't hesitate to open an issue
-on [Github](https://github.com/magenizr/Magenizr_Conceal/issues). For a custom build, don't hesitate to contact us.
+If you have any issues with this extension, open an issue on [GitHub](https://github.com/magenizr/Magenizr_AdminUser/issues).
 
 ## Purchase
 
