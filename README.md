@@ -1,6 +1,8 @@
 [![Magenizr Plus](https://images2.imgbox.com/11/6b/yVOOloaA_o.gif)](https://account.magenizr.com)
 ---
 
+[![Latest Stable Version](http://poser.pugx.org/magenizr/magento2-conceal/v)](https://packagist.org/packages/magenizr/magento2-conceal) [![Total Downloads](http://poser.pugx.org/magenizr/magento2-conceal/downloads)](https://packagist.org/packages/magenizr/magento2-conceal) [![Latest Unstable Version](http://poser.pugx.org/magenizr/magento2-conceal/v/unstable)](https://packagist.org/packages/magenizr/magento2-conceal) [![License](http://poser.pugx.org/magenizr/magento2-conceal/license)](https://packagist.org/packages/magenizr/magento2-conceal) [![PHP Version Require](http://poser.pugx.org/magenizr/magento2-conceal/require/php)](https://packagist.org/packages/magenizr/magento2-conceal)
+
 # Conceal
 
 Disable all customer export functions and mask personal information such as email and phone number.
@@ -9,12 +11,12 @@ Disable all customer export functions and mask personal information such as emai
 
 **Note**
 
-A paid version with further security enhancements will be available early December, 2022.
+Get the Pro version [here](https://account.magenizr.com/product/magenizr-concealpro).
 
 ## System Requirements
 
 - Magento 2.3.x, 2.4.x
-- PHP 5.6.x, 7.x
+- PHP 7.x, 8.1
 
 ## Installation (Composer 2)
 
@@ -40,7 +42,6 @@ Package operations: 1 install, 0 update, 0 removals
 
 ```
 php bin/magento module:enable Magenizr_Conceal --clear-static-content
-php bin/magento setup:upgrade
 ```
 
 ## Installation (Manually)
@@ -56,9 +57,10 @@ php bin/magento module:enable Magenizr_Conceal --clear-static-content
 
 ## Features
 
-* Mask email addresses and phone numbers in `Customers > All Customers`
-* Disable table export in `Customers > All Customers`
-* Disable export in `System > Data Transfer > Export`
+* Masking of address bits, emails and phone numbers in following grid tables:
+1. `Customers > All Customers` ( more grid tables supported in our [Pro version](https://account.magenizr.com/product/magenizr-concealpro) )
+* Disable export option in above grid tables
+* Disable customer export in `System > Data Transfer > Export`
 
 ## Usage
 
@@ -70,11 +72,9 @@ php bin/magento magenizr:conceal:config --status disable
 ```
 
 ## Support
-If you have any issues with this extension, open an issue on [GitHub](https://github.com/magenizr/Magenizr_AdminUser/issues).
 
-## Purchase
-
-This module is available for free on [GitHub](https://github.com/magenizr).
+If you experience any issues, don't hesitate to open an issue
+on [Github](https://github.com/magenizr/Magenizr_Conceal/issues). For a custom build, don't hesitate to contact us.
 
 ## Contact
 
