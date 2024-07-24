@@ -1,7 +1,7 @@
 [![Magenizr Plus](https://images2.imgbox.com/11/6b/yVOOloaA_o.gif)](https://account.magenizr.com)
 ---
 
-[![Latest Stable Version](http://poser.pugx.org/magenizr/magento2-conceal/v)](https://packagist.org/packages/magenizr/magento2-conceal) [![Total Downloads](http://poser.pugx.org/magenizr/magento2-conceal/downloads)](https://packagist.org/packages/magenizr/magento2-conceal) [![Latest Unstable Version](http://poser.pugx.org/magenizr/magento2-conceal/v/unstable)](https://packagist.org/packages/magenizr/magento2-conceal) [![License](http://poser.pugx.org/magenizr/magento2-conceal/license)](https://packagist.org/packages/magenizr/magento2-conceal) [![PHP Version Require](http://poser.pugx.org/magenizr/magento2-conceal/require/php)](https://packagist.org/packages/magenizr/magento2-conceal)
+[![Latest Stable Version](https://poser.pugx.org/magenizr/magento2-conceal/v)](https://packagist.org/packages/magenizr/magento2-conceal) [![Total Downloads](https://poser.pugx.org/magenizr/magento2-conceal/downloads)](https://packagist.org/packages/magenizr/magento2-conceal) [![Latest Unstable Version](https://poser.pugx.org/magenizr/magento2-conceal/v/unstable)](https://packagist.org/packages/magenizr/magento2-conceal) [![License](https://poser.pugx.org/magenizr/magento2-conceal/license)](https://packagist.org/packages/magenizr/magento2-conceal) [![PHP Version Require](https://poser.pugx.org/magenizr/magento2-conceal/require/php)](https://packagist.org/packages/magenizr/magento2-conceal)
 
 # Conceal
 
