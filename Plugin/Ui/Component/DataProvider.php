@@ -14,7 +14,9 @@ use Magenizr\Conceal\Helper\Data as HelperData;
 
 class DataProvider
 {
-
+    protected $helper;
+    protected $request;
+    
     /**
      * Init Constructor
      *
