@@ -14,7 +14,9 @@ use Magenizr\Conceal\Helper\Data as HelperData;
 
 class ExportButton
 {
-
+    protected $helper;
+    protected $request;
+    
     /**
      * @param HelperData $helper
      * @param Http $request
